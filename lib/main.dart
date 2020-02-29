@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       title: 'Invoice Management',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.teal,
       ),
-      home: WelcomePage(title: 'Flutter Login'),
+      home: WelcomePage(),
     );
   }
 
